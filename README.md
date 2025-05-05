@@ -5,8 +5,8 @@ De-MSI is a novel deep learning-based method specifically developed for denoisin
 
 # Overview of De-MSI
 <div align=center>
-<img src="![1746435987903]([https://github.com/user-attachments/assets/91ae0a5e-7ebd-4957-a076-179354eb56fa](https://github.com/gankLei-X/De-MSI/blob/main/data/1746435987903.jpg))
-" width="800" height="480" /><br/>
+
+<img src="https://github.com/user-attachments/assets/3ca0cad9-7ebc-4251-a0f0-f95b59d9ba7f" width="600" height="360" /><br/>
 </div>
 
 __Overflow of the proposed De-MSI for MSI data denoising__. Initially, the pairs of isotopic ions and monoisotopic ions are identified using the presented DeepION or other established tools. Subsequently, isotopic ion is processed through the deep denoising network to produce the denoised images. The model optimization involves minimizing the reconstruction loss, calculated as the mean absolute error between the output of deep denoising network and the monoisotopic ions. After training, the original MSI data is input into the trained deep denoising network to interface the final denoised output .
@@ -30,9 +30,15 @@ The input consists of preprocessed MSI data with a two-dimensional shape of [XY,
 
 ## Run De-MSI model
 
-cd to the De-MSI fold, and run:
+cd to the De-MSI fold,
 
-    python run_ref.py --input_PMatrix Cell_Test.csv --input_Pshape 26 26 --input_Matrix Cell_Train.csv --input_shape 25 26 --n_components 20 --input_PeakList Cell_peak.csv --output_file output
+if you want to denoise mouse fetus data acquired from MALDI, you can run:
+
+    python RUN.py --input_Matrix .../data/Fetus/BabyMALDI_82_127.csv --input_PeakList .../data/Fetus/BabyMALDI_peaklist.csv --input_Shape 82 127  --input_MASK .../data/Fetus/BabyMALDI_mask.csv --input_Monoisotope .../data/Fetus/BabyMALDI_monoiso.csv --output_File output/
+
+if you want to denoise rat brain data acquired from DESI, you can run:
+
+    python RUN.py --input_Matrix .../data/Fetus/BabyMALDI_82_127.csv --input_PeakList .../data/Fetus/BabyMALDI_peaklist.csv --input_Shape 82 127  --input_MASK .../data/Fetus/BabyMALDI_mask.csv --input_Monoisotope .../data/Fetus/BabyMALDI_monoiso.csv --output_File output/
     
 # Contact
 
