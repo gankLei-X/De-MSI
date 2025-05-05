@@ -5,7 +5,7 @@ De-MSI is a novel deep learning-based method specifically developed for denoisin
 
 # Overview of De-MSI
 <div align=center>
-<img src="![1746435987903](https://github.com/user-attachments/assets/91ae0a5e-7ebd-4957-a076-179354eb56fa)
+<img src="![1746435987903]([https://github.com/user-attachments/assets/91ae0a5e-7ebd-4957-a076-179354eb56fa](https://github.com/gankLei-X/De-MSI/blob/main/data/1746435987903.jpg))
 " width="800" height="480" /><br/>
 </div>
 
