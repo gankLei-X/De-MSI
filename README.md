@@ -22,7 +22,6 @@ __Overflow of the proposed De-MSI for MSI data denoising__. Initially, the pair
 
     conda install scikit-learn=1.4.1
 
-    conda install umap-learn -c conda-forge
     
 # Quickly start
 
