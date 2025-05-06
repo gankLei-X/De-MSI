@@ -7,7 +7,7 @@ def DeNoising(oridata,peak,mono_iso,input_shape,mask,patch_size = 256):
     print('Training from mono-isotope to isotope...')
 
     m,n = input_shape
-    epoch = 2
+    epoch = 2000
 
     monoisoPeak = mono_iso[:,0]
     isoPeak = mono_iso[:,1]
