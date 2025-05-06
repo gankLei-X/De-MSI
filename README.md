@@ -34,11 +34,11 @@ cd to the De-MSI fold,
 
 if you want to denoise mouse fetus data acquired from MALDI, you can run:
 
-    python RUN.py --input_Matrix .../data/Fetus/BabyMALDI_82_127.csv --input_PeakList .../data/Fetus/BabyMALDI_peaklist.csv --input_Shape 82 127  --input_MASK .../data/Fetus/BabyMALDI_mask.csv --input_Monoiso .../data/Fetus/BabyMALDI_monoiso.csv --output_File DenoisedMatrix
+    python RUN.py --input_Matrix data/Fetus/BabyMALDI_82_127.csv --input_PeakList data/Fetus/BabyMALDI_peaklist.csv --input_Shape 82 127  --input_MASK data/Fetus/BabyMALDI_mask.csv --input_Monoiso data/Fetus/BabyMALDI_monoiso.csv --output_File DenoisedMatrix
 
 if you want to denoise rat brain data acquired from DESI, you can run:
 
-    python RUN.py --input_Matrix .../data/BrainDESI/BrainDESI_215_86.csv --input_PeakList .../data/BrainDESI/BrainDESI_peaklist.csv --input_Shape 215 86  --input_MASK .../data/BrainDESI/BrainDESI_mask.csv --input_Monoiso .../data/BrainDESI/BrainDESI_monoiso.csv --output_File DenoisedMatrix
+    python RUN.py --input_Matrix data/BrainDESI/BrainDESI_215_86.csv --input_PeakList data/BrainDESI/BrainDESI_peaklist.csv --input_Shape 215 86  --input_MASK data/BrainDESI/BrainDESI_mask.csv --input_Monoiso data/BrainDESI/BrainDESI_monoiso.csv --output_File DenoisedMatrix
     
 # Contact
 
