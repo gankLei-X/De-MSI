@@ -26,7 +26,7 @@ __Overflow of the proposed De-MSI for MSI data denoising__. Initially, the pair
 # Quickly start
 
 ## Input
-The input consists of preprocessed MSI data with a two-dimensional shape of [XY, P], where X and Y represent the pixel numbers of the horizontal and vertical coordinates of the MSI data, respectively, and P represents the number of ions. A masking matrix [XY, 1], where the background is set to 0, and the tissue region is set to 1.
+The input consists of preprocessed MSI data with a two-dimensional shape of [XY, P], where X and Y represent the pixel numbers for the horizontal and vertical coordinates of the MSI data, respectively, and P represents the number of ions. Additionally, the input includes a peak list with a shape of [P, 1], a masking matrix [XY, 1] where the background is set to 0 and the tissue region is set to 1, and a Monoisotope-Isotope pair matrix, where the first column is the m/z values of monoisotopic ions and the second column is the corresponding isotopic ions.
 
 ## Run De-MSI model
 
