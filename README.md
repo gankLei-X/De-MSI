@@ -18,7 +18,7 @@ __Overflow of the proposed De-MSI for MSI data denoising__. Initially, the pair
 
     conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
     
-    conda install opencv=4.5.3 numpy=1.8.0 matplotlib=2.2.2 scipy=1.12.0 networkx=3.1
+    conda install opencv=4.5.3 numpy=1.8.0 matplotlib=2.2.2 scipy=1.12.0
 
     conda install scikit-learn=1.4.1
 
